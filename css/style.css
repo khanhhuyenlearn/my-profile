@@ -1,0 +1,104 @@
+/* General styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container - centers the page content */
+.container {
+  width: 700px;
+  margin: 40px auto;
+  padding: 0 15px;
+}
+
+/* Card styling */
+.card-white {
+  background-color: white;
+  padding: 30px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Profile image styling */
+.img-circle {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 3px solid #efefef;
+  margin: 20px auto;
+  display: block;
+}
+
+/* Text styling */
+h1, h2 {
+  margin-top: 0;
+  color: #404042;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+p {
+  margin: 0 0 20px;
+}
+
+/* Button styling */
+.btn-blue {
+  display: inline-block;
+  background-color: #1A73E8;
+  color: white;
+  padding: 12px 18px;
+  border-radius: 4px;
+  text-decoration: none;
+  margin: 10px 0;
+  transition: all 0.3s ease;
+}
+
+.btn-blue:hover {
+  background-color: #0e61c9;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* List styling for social icons */
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+  margin: 20px 0;
+}
+
+.list-inline > li {
+  display: inline;
+  padding: 0 15px;
+}
+
+.list-inline > li > a {
+  color: #1A73E8;
+  font-size: 24px;
+  transition: color 0.3s ease;
+}
+
+.list-inline > li > a:hover {
+  color: #0e61c9;
+}
+
+/* Responsive adjustments */
+@media (max-width: 730px) {
+  .container {
+    width: 100%;
+    padding: 0 20px;
+  }
+}
